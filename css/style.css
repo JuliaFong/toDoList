@@ -1,0 +1,77 @@
+html {
+    height: 100vh;
+    min-width: 600px;
+    background-image: linear-gradient(130deg, #FFFFFF,#1C3F82);
+    background-size: auto;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;  
+    font-family: 'Merriweather', sans-serif;
+}
+
+.main {
+    padding: 20px;
+}
+
+form {
+    
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+
+input[type="text"] {
+    height: auto;
+    width: auto;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Merriweather', sans-serif;
+    color: #2c2c2c;
+    flex-grow: 1;
+}
+
+button {
+    font-size: 1.5rem;
+    background-color:white;
+    outline: 0;
+    border: none;
+    color: #555555;
+}
+
+button:hover {
+    color: rgb(196, 0, 101);
+}
+
+.toDoList {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 12px 25px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: decimal;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightslategrey;
+    padding: 15px 0;
+    font-size: 1rem;
+    color: #555555;
+}
+
+i {
+    pointer-events: none;
+}
