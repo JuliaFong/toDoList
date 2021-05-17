@@ -75,3 +75,19 @@ li {
 i {
     pointer-events: none;
 }
+
+.todo-item {
+    flex-grow: 1;
+}
+
+.clearAll {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.clearAll:hover {
+    color: rgb(196, 0, 101);
+}
